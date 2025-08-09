@@ -1,0 +1,152 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleksi Ketua & Wakil Ketua OSIS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8fb;
+            color: #222;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0066cc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .timeline {
+            border-left: 3px solid #0066cc;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+        .timeline div {
+            margin-bottom: 20px;
+        }
+        .timeline h3 {
+            margin: 0;
+            color: #0066cc;
+        }
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        button {
+            background: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #004080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seleksi Ketua & Wakil Ketua OSIS</h1>
+        <p>SMA Negeri 8 Halmahera Selatan</p>
+        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScGjPdal5FtHCc58gT54mEcT1zFDWSYSieB3DyhIjFLt4X2Gg/viewform?usp=pp_url'">Daftar Sekarang</button>
+    </header><nav>
+    <a href="#tahapan">Tahapan</a>
+    <a href="#persyaratan">Persyaratan</a>
+    <a href="#calon">Daftar Calon</a>
+    <a href="#hasil">Hasil Seleksi</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+    <section id="tahapan">
+        <h2>Tahapan Seleksi</h2>
+        <div class="timeline">
+            <div>
+                <h3>10–15 Agustus</h3>
+                <p>Pendaftaran & Pengumuman</p>
+            </div>
+            <div>
+                <h3>16 Agustus</h3>
+                <p>Seleksi Administrasi</p>
+            </div>
+            <div>
+                <h3>18 Agustus</h3>
+                <p>Wawancara</p>
+            </div>
+            <div>
+                <h3>20 Agustus</h3>
+                <p>Tes Tertulis & Presentasi Program Kerja</p>
+            </div>
+            <div>
+                <h3>22–24 Agustus</h3>
+                <p>Kampanye & Debat Terbuka</p>
+            </div>
+            <div>
+                <h3>26 Agustus</h3>
+                <p>Pemilihan Umum OSIS</p>
+            </div>
+            <div>
+                <h3>27 Agustus</h3>
+                <p>Pengumuman Pemenang</p>
+            </div>
+            <div>
+                <h3>30 Agustus</h3>
+                <p>Pelantikan</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="persyaratan">
+        <h2>Persyaratan Pendaftaran</h2>
+        <ul>
+            <li>Siswa aktif SMA Negeri 8 Halmahera Selatan</li>
+            <li>Minimal kelas XI saat menjabat</li>
+            <li>Nilai rata-rata minimal 80</li>
+            <li>Tidak pernah mendapat sanksi berat</li>
+            <li>Aktif di kegiatan sekolah</li>
+        </ul>
+    </section>
+
+    <section id="calon">
+        <h2>Daftar Calon</h2>
+        <p>Data calon akan ditampilkan setelah seleksi administrasi.</p>
+    </section>
+
+    <section id="hasil">
+        <h2>Hasil Seleksi</h2>
+        <p>Pengumuman hasil seleksi akan muncul di sini sesuai jadwal.</p>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak Panitia</h2>
+        <p>📧 Email: osis.sman8halsel@example.com</p>
+        <p>📱 WhatsApp: 08xxxxxxxxxx</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 OSIS SMA Negeri 8 Halmahera Selatan</p>
+</footer>
+
+</body>
+</html>
